@@ -4,7 +4,7 @@ namespace Movie_Profanity_Remover_2._0
 {
     public static class Info
     {
-        public const string Version = "2021.05.30.5";
+        public const string Version = "2021.07.21.1";
         public static string Settings = "Settings.dat";
 
         public static TimeSpan OverallDuration;
