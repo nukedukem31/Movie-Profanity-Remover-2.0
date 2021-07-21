@@ -1,0 +1,5 @@
+ffmpeg -i subtitles.srt subtitles.ass
+
+ffmpeg -i mymovie.mp4 -vf ass=subtitles.ass mysubtitledmovie.mp4
+
+https://stackoverflow.com/questions/8672809/use-ffmpeg-to-add-text-subtitles
