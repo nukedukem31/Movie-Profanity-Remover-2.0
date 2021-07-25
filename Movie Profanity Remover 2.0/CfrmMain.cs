@@ -432,11 +432,13 @@ namespace Movie_Profanity_Remover_2._0
             {
                 SwearWords.Key.Add("motherfucker");
                 SwearWords.Key.Add("motherfuckers");
+                SwearWords.Key.Add("motherfucking");
             }
             if (Tool.Settings.WordSingleMotherfucker)
             {
                 SwearWords.Value.Add("motherfucker");
                 SwearWords.Value.Add("motherfuckers");
+                SwearWords.Value.Add("motherfucking");
             }
 
 
