@@ -332,19 +332,30 @@ namespace Movie_Profanity_Remover_2._0
             {
                 SwearWords.Key.Add("bitch");
                 SwearWords.Key.Add("bitches");
+                SwearWords.Key.Add("bitchin");
+                SwearWords.Key.Add("bitching");
             }
             if (Tool.Settings.WordSingleBitch)
             {
                 SwearWords.Value.Add("bitch");
                 SwearWords.Value.Add("bitches");
+                SwearWords.Value.Add("bitchin");
+                SwearWords.Value.Add("bitching");
             }
 
 
             if (Tool.Settings.WordFullBullshit)
+            {
                 SwearWords.Key.Add("bullshit");
+                SwearWords.Key.Add("bullshitting");
+                SwearWords.Key.Add("bullshittin");
+            }
             if (Tool.Settings.WordSingleBullshit)
+            {
                 SwearWords.Value.Add("bullshit");
-
+                SwearWords.Value.Add("bullshitting");
+                SwearWords.Value.Add("bullshittin");
+            }
 
             if (Tool.Settings.WordFullCock)
             {
@@ -458,11 +469,19 @@ namespace Movie_Profanity_Remover_2._0
             {
                 SwearWords.Key.Add("shit");
                 SwearWords.Key.Add("shits");
+                SwearWords.Key.Add("shittier");
+                SwearWords.Key.Add("shittiest");
+                SwearWords.Key.Add("shithole");
+                SwearWords.Key.Add("shitbag");
             }
             if (Tool.Settings.WordSingleShit)
             {
                 SwearWords.Value.Add("shit");
                 SwearWords.Value.Add("shits");
+                SwearWords.Value.Add("shittier");
+                SwearWords.Value.Add("shittiest");
+                SwearWords.Value.Add("shithole");
+                SwearWords.Value.Add("shitbag");
             }
 
             foreach (string line in Tool.Settings.WordFullCustom)
